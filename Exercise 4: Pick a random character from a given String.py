@@ -1,2 +1,7 @@
 # Exercise 4: Pick a random character from a given String
-# debt 4
+
+import random
+
+sample:str = "Memory"
+random_char:str = random.choice(sample)
+print(random_char)
