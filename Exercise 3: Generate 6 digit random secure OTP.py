@@ -1,7 +1,8 @@
 # Exercise 3: Generate 6 digit random secure OTP
-# debt 3
-# next debt
-# another one
-# another one
-# another
-# another
+
+import random
+import secrets
+
+secret_gen = secrets.SystemRandom()
+secret_num = secret_gen.randrange(100000,999999)
+print(secret_num)
